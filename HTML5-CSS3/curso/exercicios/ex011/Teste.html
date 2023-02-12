@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica - TESTES</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmenteaumente e diminua o tamanho do seu navegador para ver o Homem-Formiga mudar de tamanho</p>
+    <p><a href="index.html" rel="prev" target="_self">Página anterior</a></p>
+    <picture>
+        <source media="(max-width: 500px)" srcset="imagens/scott-lang-100px.png" type="image/png">
+        <source media="(max-width: 600px)" srcset="imagens/scott-lang-150px.png" type="image/png">
+        <source media="(max-width: 700px)" srcset="imagens/scott-lang-200px.png" type="image/png">
+        <source media="(max-width: 800px)" srcset="imagens/scott-lang-250px.png" type="image/png">
+        <source media="(max-width: 900px)" srcset="imagens/scott-lang-300px.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="imagens/scott-lang-350px.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="imagens/scott-lang-400px.png" type="image/png">
+        <source media="(max-width: 1100px)" srcset="imagens/scott-lang-450px.png" type="image/png">
+        <source media="(max-width: 1200px)" srcset="imagens/scott-lang-500px.png" type="image/png">
+        <source media="(max-width: 1300px)" srcset="imagens/scott-lang-800px.png" type="image/png">
+       <img src="imagens/scott-lang-1050px.png" alt="Imagem flexível">
+    </picture>
+</body>
+</html>
+

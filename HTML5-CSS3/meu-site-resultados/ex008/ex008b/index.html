@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Outras formatações</title>
+    <style>
+        mark {
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h1><mark style="background-color: aqua;">Outras formatações</mark></h1>
+        <h2><mark>Código-fonte / Pré-formatação</mark></h2>
+            <p>O comando <code>document.getElementByld('teste')</code> é escrito em linguagem JavaScript.</p>
+            <pre>
+                <code>
+                    <!--Código em Phyton-->
+    num = int(input('Digite um número'))
+    if num % 2 == 0:
+        print(f'O número {num} é PAR')
+    else:
+        print(f'O número {num} é ÍMPAR')
+    print('Fim do programa')
+                </code>
+            </pre>
+            <h2><mark>Citações simples</mark></h2>
+                <p>Como dizia aquela frase: <q>O computador é um burro muito rápido</q></p>
+            <h2><mark>Citações completas</mark></h2>
+                <p>Segundo o site MDN em seu artigo sobre HTML:</p>
+                <!--Ao adicionar a tag "cite" em blockquote ele cria uma citação da origem-->
+                <blockquote cite="https://developer.mozilla.org/pt-BR/docs/Web/HTML">
+                    HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web. Define o significado e a estrutura do conteúdo da web. Outras tecnologias além do HTML geralmente são usadas para descrever a aparência/apresentação (CSS) ou a funcionalidade/comportamento (JavaScript) de uma página da web.</blockquote>
+            <h2><mark>Abreviações</mark></h2>
+                <p>Estou estudano <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou gostando!</p>
+            <h2><mark>Texto invertido</mark></h2>
+                <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML</bdo></p>
+</body>
+</html>
