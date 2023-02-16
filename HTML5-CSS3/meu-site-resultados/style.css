@@ -1,0 +1,38 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family= Cairo +Play:wght@200;300;400;500;600;700;800;900;1000 &família= Nabla & display=swap' );
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@200;300;400;500;600;700;800;900;1000&family=Reem+Kufi+Fun:wght@400;500;600;700&display=swap');
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-image: linear-gradient(to right,#FFCB9A,#D8B08C);
+}
+main {
+    background-color: white;
+    border-radius: 10px;
+
+    box-shadow: 5px 5px 15px #46392a8c;
+    width: 600px;
+    padding: 15px;
+    margin: auto;
+}
+h1 {
+    color: black;
+    
+    font-family: 'Reem Kufi Fun', sans-serif;
+}
+
+h2 {
+    font-weight: lighter;
+    font-size: 1em;
+}
+
+h3 {
+
+}
+
+ol {
+    
+    text-align: center;
+    background-image: radial-gradient(circle,#FFCB9A,#ffecdb);
+}
