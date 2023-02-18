@@ -30,6 +30,10 @@ h1 {
     font-family: 'Reem Kufi Fun', sans-serif;
 }
 
+h2 {
+    border-bottom: 1px solid #04080F;
+}
+
 p {
     text-indent: 40px;
     text-align: justify;
@@ -52,6 +56,7 @@ button:hover {
 }
 
 a {
+    padding: 8px;
     color: white;
     text-decoration: none;  
 }
