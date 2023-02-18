@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* Esta regra é utilizada para evitar problemas com a acentos e caracteres especiais*/
+
+/* 
+    Tudo que em HTML é: id = 
+    em CSS vira: # 
+    id personaliza apenas um!
+
+    Tudo que em HTML é: class =
+    em CSS vira: .
+    class personaliza um grupo, mais de um!
+*/
+
+body {
+    background-color: #242423;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    background-color: #E8EDDF;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #46392a8c;
+    width: 600px;
+    padding: 15px;
+    margin: auto;
+}
+
+h1 {
+    color: #242423;
+}
+
+h1#principal {
+    color: #242423;
+    text-align: center;
+    background-color: #F5CB5C;
+    border-radius: 7px;
+    box-shadow: 2px 2px 5px #463a1a8c;
+}
+
+h2 {
+    color: #333533;
+}
+
+p {
+    text-indent: 40px;
+    text-align: justify;
+}
+
+.destaque {
+    color: #0040a1;  
+}
+
+.basico {
+    color: #8E0045;
+}
+
+.intermediario {
+    color: #770058;
+}
+
+.avancado {
+    color: #600047;
+}
